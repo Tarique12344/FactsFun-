@@ -8,7 +8,7 @@ import './Styles/home.css'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/FunFacts2'>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/factOne" element={<FactOne />} />
