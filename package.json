@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-   "deploy": "gh-pages -d dist --repo=https://github.com/Tarique12344/FactsFun-.git",
+   "deploy": "gh-pages -d dist https://github.com/Tarique12344/FactsFun-.git",
 
     "clean": "rm -rf dist"
   },
